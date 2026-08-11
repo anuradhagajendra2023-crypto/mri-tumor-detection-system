@@ -67,19 +67,17 @@ The model was trained on a 4-class MRI dataset (Glioma, Meningioma, Pituitary Tu
 The model currently favors predicting "No Tumor" for some borderline cases, resulting in lower recall for Glioma and Meningioma compared to Pituitary. Further improvements could include deeper CNN architectures, batch normalization, or a larger/more diverse training dataset.
 
 See `confusion_matrix.png` and `classification_report.txt` for the full evaluation breakdown.
+
 ![Confusion Matrix](confusion_matrix.png)
+
 ## Pre-trained Model
 
 The trained model (`brain_tumor_model.keras`) is available for download here:
 
 [Download brain_tumor_model.keras](https://drive.google.com/file/d/1Dq94yM0F14xyLgzfCTz8VA_zF7OgjpB0/view?usp=sharing)
-
 After downloading, place the file in the project root directory before running `brain_tumor.py` for predictions.
 
 ---
-
-
-
 
 ## Dataset
 
