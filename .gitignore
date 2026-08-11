@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+Training/
+Testing/
+*.keras
+.venv/
+.ipynb_checkpoints/
